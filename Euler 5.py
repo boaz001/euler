@@ -1,7 +1,7 @@
 # http://projecteuler.net/problem=5
 # 2520 is the smallest number that can be divided by each of the numbers from 1 to 10 without any remainder.
 # What is the smallest positive number that is evenly divisible by all of the numbers from 1 to 20?
-def evenly(n):
+def prob5(n):
   print "finding the smallest positive number that is evenly divisible by all of the numbers from 1 to", n
   number = 1 # start from number 1
   remainder = 1 # is there a remainder
@@ -21,3 +21,5 @@ def evenly(n):
         i = i+1
   print "Answer:"
   return number
+
+prob5(20)

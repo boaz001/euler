@@ -34,3 +34,5 @@ def prob11():
         maxd_r = mult4(mat[i, j+3], mat[i+1, j+2], mat[i+2, j+1], mat[i+3, j])
   print "maxd_r:", maxd_r
   print "max of all:", max(maxh, maxv, maxd_l, maxd_r)
+
+prob11()

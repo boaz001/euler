@@ -2,7 +2,7 @@
 # The sum of the primes below 10 is 2 + 3 + 5 + 7 = 17.
 # Find the sum of all the primes below two million.
 import collections
-def prime():
+def prob10():
   below = 16
   numbers = {}
   i = 2
@@ -13,3 +13,4 @@ def prime():
   print numbers
   primes = []
 
+prob10()

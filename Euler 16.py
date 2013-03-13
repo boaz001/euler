@@ -9,3 +9,5 @@ def prob16():
     sumstr += int(string[i])
     i += 1
   return sumstr
+
+prob16()
